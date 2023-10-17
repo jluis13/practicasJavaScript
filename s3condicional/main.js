@@ -68,6 +68,8 @@ consejero("gato")
 
 /*EJERCICIO 2*/
 
+/*
+
 function dados (number1, number2){
     if(number1 === 2 && number2 ===2){
         console.log("Haz ganado")
@@ -83,3 +85,18 @@ function dados (number1, number2){
     console.log("haz perdido")    
 }
 let= dados(0,7) 
+
+*/
+
+/*Tarea:
+Metodos de String 
+Necesitamos crear algo que tome una palabra, y que muestre 2 nuevas palabras. La primera estara construida 
+con todas las letras cuya posicion sea non de la palabra original, y la segunda debera estar creada con 
+todas las letras de la palabra original, cuya posicion sea par.*/
+
+const nombre = [];
+nombre.push("J", "o", "r","g","e");
+
+console.log(nombre.length);
+
+
