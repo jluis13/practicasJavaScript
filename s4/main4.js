@@ -32,6 +32,7 @@ createWords("gato");
 
   .split
   */
+ /*
  function texto (texto, numero){
     if (numero > texto.lenght){
         return "Texto muy largo"
@@ -40,3 +41,5 @@ createWords("gato");
         return texto >= 4 ? ""
     }
  }
+*/
+ 
