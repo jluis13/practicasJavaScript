@@ -42,4 +42,32 @@ createWords("gato");
     }
  }
 */
+
+/* substring  ejemplo 1:*/
+
+/*
+function getSubstring(txt, finalIndex){
+    let result =  txt.substring(0, finalIndex);
+    return result;
+
+}
+
+let substringTest = getSubstring("Tezcaltitlipca", 4)
+console.log(substringTest);
+
+*/
+
+/* ejemplo 2: */
+
+function getSubstring(txt, finalIndex){
+    let result = 
+       txt.length > finalIndex
+         ? txt.substring(0, finalIndex)
+          : "El texto es mas pequeño que el numero indicado";
+    return result;
+}
+
+let substringTest = getSubstring("Tezcaltlipoca", 50);
+console.log(substringTest);
+
  
